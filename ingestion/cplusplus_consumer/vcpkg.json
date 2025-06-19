@@ -1,0 +1,24 @@
+{
+    "name": "kafka-postgres-consumer",
+    "version": "1.0.0",
+    "dependencies": [
+
+        {
+            "name": "librdkafka",
+            "version>=": "2.3.0"
+        },
+        {
+            "name": "cppkafka",
+            "version>=": "0.4.0"
+        },
+        {
+            "name": "libpqxx",
+            "version>=": "7.6.0"
+        },
+        {
+            "name": "nlohmann-json",
+            "version>=": "3.12.0"
+        }
+    ],
+    "builtin-baseline": "f2bf7d935af722c0cd8219c1f6e30d5ae3d666f2"
+  }

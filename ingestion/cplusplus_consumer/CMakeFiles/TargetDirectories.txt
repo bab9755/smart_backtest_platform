@@ -1,0 +1,3 @@
+/Users/boubalkaly/Desktop/development/portfolio/smart-backtest-platform/ingestion/cplusplus_consumer/CMakeFiles/kafka_consumer.dir
+/Users/boubalkaly/Desktop/development/portfolio/smart-backtest-platform/ingestion/cplusplus_consumer/CMakeFiles/edit_cache.dir
+/Users/boubalkaly/Desktop/development/portfolio/smart-backtest-platform/ingestion/cplusplus_consumer/CMakeFiles/rebuild_cache.dir
