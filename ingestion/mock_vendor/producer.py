@@ -23,6 +23,7 @@ def main(): #this is a function to simulate a mock vendor sending data to kafka 
     while True:
         for symbol in ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA']:
             tick = generate_mock_tick(symbol)
+            print(tick)
             producer.send('market_data', tick)
             time.sleep(random.uniform(0.5, 1.5))
 

@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS tick_data (
+CREATE TABLE IF NOT EXISTS ticks (
     id SERIAL PRIMARY KEY,
     symbol TEXT,
     timestamp TIMESTAMPTZ,
@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS tick_data (
     volume DOUBLE PRECISION
 );
 
-CREATE INDEX ON tick_data (symbol, timestamp);
+CREATE INDEX ON ticks (symbol, timestamp);
