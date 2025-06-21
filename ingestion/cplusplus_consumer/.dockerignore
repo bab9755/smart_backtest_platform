@@ -1,0 +1,7 @@
+# Ignore local build artifacts
+build/
+vcpkg_installed/
+
+# Ignore IDE/editor-specific files
+.vscode/
+CMakeUserPresets.json 

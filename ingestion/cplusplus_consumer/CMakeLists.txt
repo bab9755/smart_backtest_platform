@@ -5,8 +5,6 @@ project(KafkaPostgresConsumer)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/../../vcpkg/scripts/buildsystems/vcpkg.cmake)
-
 # Add executable
 add_executable(consumer src/main.cpp)
 
